@@ -19,6 +19,7 @@ const GallerySection = () => {
 
         <div className="w-full px-4 flex flex-wrap justify-center gap-10 lg:mx-auto lg:flex-nowrap">
           <GalleryItem
+            quality="100"
             imagePath="/webdev.webp"
             altText="Web Application Development"
             caption="Web Application Development"

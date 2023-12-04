@@ -40,7 +40,8 @@ const GallerySection = () => {
 
       <div className="w-full px-4 flex flex-wrap justify-center gap-10 lg:mx-auto lg:flex-nowrap">
         <Services
-          imagePath="/webdev.png"
+          quality={100}
+          imagePath="/webdev.webp"
           altText="Web Application Development"
           caption="Web Application Development"
           description="Crafting responsive and user-friendly websites tailored to meet your business needs. Our web development services ensure a seamless online experience for your customers."
@@ -49,7 +50,7 @@ const GallerySection = () => {
           quality={100}
           caption="Mobile App Development"
           altText="Mobile App Development"
-          imagePath="/mobiledev.png"
+          imagePath="/mobiledev.webp"
           description="Building cutting-edge mobile applications that engage users and elevate your brand. Our mobile development services cover both iOS and Android platforms."
         />
       </div>
