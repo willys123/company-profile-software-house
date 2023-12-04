@@ -20,7 +20,7 @@ const TestimonialsSection = () => {
                 className="w-16 mt-5 rounded-full"
                 alt=""
               />
-              <h5 className="text-lg font-bold text-blue-950">Ical</h5>
+              <h4 className="text-lg font-bold text-blue-950">Ical</h4>
               <p className="text-sm text-darkGrayishBlue">
                 "Impressed with the professionalism and quality of service.
                 Willyam Software House understood our business needs, delivering
@@ -38,7 +38,7 @@ const TestimonialsSection = () => {
                 className="w-16 mt-5 rounded-full"
                 alt=""
               />
-              <h5 className="text-lg font-bold text-blue-950">Jebraks</h5>
+              <h4 className="text-lg font-bold text-blue-950">Jebraks</h4>
               <p className="text-sm text-darkGrayishBlue">
                 "Willyam Software House is an outstanding software development
                 partner. They not only provide highly functional and
@@ -56,7 +56,7 @@ const TestimonialsSection = () => {
                 className="w-16 mt-5 rounded-full"
                 alt=""
               />
-              <h5 className="text-lg font-bold text-blue-950">Baron</h5>
+              <h4 className="text-lg font-bold text-blue-950">Baron</h4>
               <p className="text-sm text-darkGrayishBlue">
                 "Working with Willyam Software House was a satisfying
                 experience. Their competent and dedicated team ensured a smooth
