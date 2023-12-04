@@ -41,6 +41,7 @@ export default function Navbar() {
             </Link>
             <div className="md:hidden">
               <button
+                aria-label="buttonNavbar"
                 className="p-2 text-gray-700 rounded-md outline-none focus:border-gray-400 focus:border"
                 onClick={() => setNavbar(!navbar)}
               >
