@@ -9,7 +9,7 @@ const GallerySection = () => {
           <h2 className="font-bold text-black-500 text-4xl mb-5 text-center lg:text-5xl lg:mb-5">
             Product / Services
           </h2>
-          <h4 className="font-semibold text-base lg:text-xl">Bestseller</h4>
+          <h4 className="font-semibold text-xl">Bestseller</h4>
           <p className="text-xs mt-1 lg:text-base">
             Ready to take your business to the next level? Explore our Best
             Seller services and unlock the full potential of technology for your
