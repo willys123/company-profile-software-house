@@ -32,7 +32,7 @@ export default function Navbar() {
           <div className="flex items-center justify-between py-3 md:py-5 md:block">
             <Link href="/">
               <div className="cursor-pointer flex items-center space-x-2">
-                <h2 className="text-2xl font-bold">
+                <h2 className="text-2xl font-bold text-blue-950">
                   {" "}
                   Willyam Software &#127968;{" "}
                   <sup className="font-extrabold">&#59;</sup>
