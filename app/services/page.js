@@ -1,8 +1,13 @@
 import Image from "next/image";
-import Link from "next/link";
-import TestimonialsSection from "../components/Testimoni";
+import TestimoniSection from "../components/Testimoni";
 
-const Services = ({ altText, caption, quality, imagePath, description }) => {
+const ServicesPage = ({
+  altText,
+  caption,
+  quality,
+  imagePath,
+  description,
+}) => {
   return (
     <div className="mb-12 p-4 text-center">
       <h3 className="font-semibold text-sm text-black mt-4 mb-3 lg:text-lg">
@@ -23,7 +28,7 @@ const Services = ({ altText, caption, quality, imagePath, description }) => {
   );
 };
 
-const GallerySection = () => {
+const SevicesSection = () => {
   return (
     <section id="services" className="pt-28 text-center md:pt-28 sm:pt-30">
       <div className="max-w-6xl px-5 mx-auto mt-0 text-center">
@@ -39,14 +44,14 @@ const GallerySection = () => {
       </div>
 
       <div className="w-full px-4 flex flex-wrap justify-center gap-10 lg:mx-auto lg:flex-nowrap">
-        <Services
+        <ServicesPage
           quality={100}
           imagePath="/webdev.webp"
           altText="Web Application Development"
           caption="Web Application Development"
           description="Crafting responsive and user-friendly websites tailored to meet your business needs. Our web development services ensure a seamless online experience for your customers."
         />
-        <Services
+        <ServicesPage
           quality={100}
           caption="Mobile App Development"
           altText="Mobile App Development"
@@ -56,10 +61,10 @@ const GallerySection = () => {
       </div>
 
       <div className="my-5 items-center text-center">
-        <TestimonialsSection />
+        <TestimoniSection />
       </div>
     </section>
   );
 };
 
-export default GallerySection;
+export default SevicesSection;

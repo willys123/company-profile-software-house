@@ -1,7 +1,7 @@
 import Image from "next/image";
 import Link from "next/link";
 
-const GallerySection = () => {
+const SevicesSection = () => {
   return (
     <section id="about" className="pb-20 text-center items-center">
       <div className="max-w-6xl px-5 mx-auto mt-0 text-center">
@@ -63,4 +63,4 @@ const GalleryItem = ({ altText, caption, quality, imagePath }) => {
   );
 };
 
-export default GallerySection;
+export default SevicesSection;

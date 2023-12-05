@@ -1,7 +1,7 @@
 import Link from "next/link";
 import Image from "next/image";
 
-const AboutSection = () => {
+const AboutPage = () => {
   return (
     <section id="aboutpage" className="pt-28 text-center md:pt-25 sm:pt-30">
       <div className="max-w-6xl px-5 mx-auto mt-0 text-center">
@@ -91,4 +91,4 @@ const AboutSection = () => {
   );
 };
 
-export default AboutSection;
+export default AboutPage;

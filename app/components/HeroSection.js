@@ -2,12 +2,12 @@ import React from "react";
 import Image from "next/image";
 import Link from "next/link";
 
-const HomeSection = () => {
+const HeroSection = () => {
   return (
     <>
       <section
         id="home"
-        className="pt-16 lg:pt-36 bg-gradient-to-b from-gray-800 via-gray-900 to-black pb-16 text-center"
+        className="pt-16 lg:pt-36 bg-gradient-to-b from-gray-700 via-gray-900 to-black pb-16 text-center"
       >
         <div className="container mx-auto">
           <div className="md:flex md:flex-row items-center justify-center">
@@ -17,7 +17,7 @@ const HomeSection = () => {
                 <br />
                 Software House
               </h1>
-              <p className="text-xl lg:text-2xl text-white mb-4 lg:mb-8">
+              <p className="text-lg lg:text-2xl text-white mb-8">
                 "Empowering Visions, Crafting Solutions &#59;
                 <br /> Your Ultimate Software Partner"
               </p>
@@ -37,7 +37,6 @@ const HomeSection = () => {
                 alt="Software House"
                 width={300}
                 height={300}
-                className=""
               />
             </div>
           </div>
@@ -50,13 +49,11 @@ const HomeSection = () => {
             fill="#fffffff"
             fillOpacity="1"
             d="M0,192L48,181.3C96,171,192,149,288,138.7C384,128,480,128,576,133.3C672,139,768,149,864,138.7C960,128,1056,96,1152,90.7C1248,85,1344,107,1392,117.3L1440,128L1440,0L1392,0C1344,0,1248,0,1152,0C1056,0,960,0,864,0C768,0,672,0,576,0C480,0,384,0,288,0C192,0,96,0,48,0L0,0Z"
-          >
-            dia
-          </path>
+          />
         </svg>
       </section>
     </>
   );
 };
 
-export default HomeSection;
+export default HeroSection;

@@ -7,7 +7,7 @@ const AboutSection = () => {
           <h2 className="font-bold text-black-500 text-4xl mb-5 text-center lg:text-5xl lg:mb-5">
             About us
           </h2>
-          <p className="text-sm text-center text-black p-4 lg:text-xl lg:p-5">
+          <p className="text-lg text-center text-black p-4 lg:text-xl lg:p-5">
             <span className="font-semibold">Willyam's Software House</span>{" "}
             stands as one of the top website and app developers in Indonesia,
             adhering to international quality standards.

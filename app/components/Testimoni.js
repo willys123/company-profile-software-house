@@ -1,7 +1,7 @@
 import React from "react";
 import Image from "next/image";
 
-const TestimonialsSection = () => {
+const TestimoniSection = () => {
   return (
     <>
       <section id="testimoni">
@@ -18,7 +18,7 @@ const TestimonialsSection = () => {
                 width={100}
                 height={100}
                 className="w-16 mt-5 rounded-full"
-                alt=""
+                alt="Avatar Testimoni"
               />
               <h3 className="text-lg font-bold text-blue-950">Ical</h3>
               <p className="text-sm text-darkGrayishBlue">
@@ -36,7 +36,7 @@ const TestimonialsSection = () => {
                 width={100}
                 height={100}
                 className="w-16 mt-5 rounded-full"
-                alt=""
+                alt="Avatar Testimoni"
               />
               <h3 className="text-lg font-bold text-blue-950">Jebraks</h3>
               <p className="text-sm text-darkGrayishBlue">
@@ -54,7 +54,7 @@ const TestimonialsSection = () => {
                 height={100}
                 src="/aforeWilly.webp"
                 className="w-16 mt-5 rounded-full"
-                alt=""
+                alt="Avatar Testimoni"
               />
               <h3 className="text-lg font-bold text-blue-950">Baron</h3>
               <p className="text-sm text-darkGrayishBlue">
@@ -81,4 +81,4 @@ const TestimonialsSection = () => {
   );
 };
 
-export default TestimonialsSection;
+export default TestimoniSection;
